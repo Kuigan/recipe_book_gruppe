@@ -1,0 +1,87 @@
+* {
+    background-color: #94b0f0;
+    font-family: 'Lucida Sans', sans-serif;
+    color: #03112a;
+    line-height: 1.5;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 300%;
+    background-color: #45489f;
+    text-align: left;
+    text-shadow: 0px 0px 6px rgb(0, 20, 0);
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #252758;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 250%;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 6px #45489;
+   
+}
+
+nav ul {
+    list-style: none;
+    background-color: #45489f;
+}
+
+nav ul li {
+    border-bottom-style: solid;
+    border-bottom-width: 2.5px;
+    border-bottom-color: #45489f;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+}
+
+nav ul li a:hover {
+    text-shadow: 0px 0px 10px #0b1e6a;
+}
+
+section#about h2 {
+    text-align: right;
+    padding-right: 15px;
+}
+
+article {
+    padding-left: 100px;
+    margin-left: 1px;
+}
+
+article ul li {
+    list-style: none;
+   
+}
+
+article figure figcaption {
+    font-style: italic;
+    font-weight: 100;
+}
+
+footer {
+    text-align: left;
+    font-size: 120%;
+    border-top-style: solid;
+    border-top-width: 1px;
+   
+    background-color: white;
+}
+
+footer a:hover {
+    text-shadow: 0px 0px 4px #0b1e6a;
+}
