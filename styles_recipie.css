@@ -25,8 +25,16 @@ h2 {
     text-transform: capitalize;
     font-size: 250%;
     letter-spacing: 5px;
-    text-shadow: 0px 0px 6px #45489;
-   
+    padding-left: 38px;
+}
+
+h3 {
+    color: #252758;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 150%;
+    letter-spacing: 5px;
+    padding-left: 38px;
 }
 
 nav ul {
