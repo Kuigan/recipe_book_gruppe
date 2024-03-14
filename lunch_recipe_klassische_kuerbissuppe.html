@@ -3,58 +3,137 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles_recipie.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <title>Delicious Recipes</title>
     </head>
     <body>
-        <header>
-            <h1>Delicious Recipes</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="breakfast.html">Frühstück</a></li>
-                    <li><a href="lunch.html">Mittagessen</a></li>
-                    <li><a href="dinner.html">Abendessen</a></li>
-                </ul>
-            </nav>        
-        </header>
+            <div class="container">
+                <h1 class="webseitentitel">Delicious Recipes</h1>
+                <header class="d-flex justify-content-center py-3">
+                  <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="breakfast.html" class="nav-link">Frühstück</a></li>
+                    <li class="nav-item"><a href="lunch.html" class="nav-link">Mittagessen</a></li>
+                    <li class="nav-item"><a href="dinner.html" class="nav-link">Abendessen</a></li>
+                  </ul>
+                </header>
+              </div>
 
-        <article>
-            <h2>Klassische Kürbissuppe</h2>
-            <h3>Zutaten</h3>
-            <ul>
-                <li>1 kg Hokkaido-Kürbis</li>
-                <li>2 mehligkochende Kartoffeln</li>
-                <li>1 Zwiebel</li>
-                <li>1 Zehe(n) Knoblauch</li>
-                <li>2 EL Butterschmalz</li>
-                <li>1.2 l Gemüsebrühe</li>
-                <li>2 Stiel(e) glatte Petersilie</li>
-                <li>100 ml Sahne</li>
-                <li>Pfeffer</li>
-                <li>Salz</li>
-            </ul>
-            <h3>Zubereitung</h3>
-            <ol>
-                <li>Kürbis waschen, halbieren und die Fasern mit den Kernen entfernen.</li>
-                <li>Dann in Würfel schneiden.</li>
-                <li>Kartoffeln und Zwiebel schälen und würfeln.</li>
-                <li>Knoblauch schälen.</li>
-                <li>Butterschmalz in einem Topf erhitzen und Zwiebeln und Knoblauch glasig anbraten.</li>
-                <li>Kürbiswürfel und Kartoffeln dazugeben, 2-3 Minuten andünsten und mit Gemüsebrühe ablöschen.</li>
-                <li>Suppe 30 Minuten köcheln lassen und gelegentlich umrühren.</li>
-                <li>Petersilie waschen, trocken schütteln und grob hacken.</li>
-                <li>Suppe pürieren, die Sahne zugeben und mit Pfeffer und Salz abschmecken.</li>
-                <li>Mit Petersilie garnieren.</li>
-            </ol>
-            <figure>
-                <img src="lunch_recipe_klassische_kuerbissuppe.png" alt="Klassische Kürbissuppe" width="50%">
-                <figcaption>Leckere hausgemachte klassische Kürbissuppe.</figcaption>
-            </figure>
-        </article>
 
-        <footer>
-            <p>Ein Rezept vorschlagen: <a href="mailto:recipes@recipe-book.com">eine Email schicken.</a> </p>
-        </footer>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 ">Klassische Kuerbissuppe</h1>
+            
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                      <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="lunch_recipe_klassische_kuerbissuppe.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                      
+                        <figcaption>Klassische Kuerbissuppe</figcaption>
+                    
+                    </div>
 
+
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+
+                  <h3>Zutaten</h3>
+
+                  <div class="list-group">
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked="">
+                      <span>
+                        1 kg Hokkaido-Kürbis
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                      <span>
+                        2 mehligkochende Kartoffeln
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                      <span>
+                        1 Zwiebel
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        1 Zehe(n) Knoblauch
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        2 EL Butterschmalz
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        1.2 l Gemüsebrühe
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        2 Stiel(e) glatte Petersilie
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        100 ml Sahne
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        Pfeffer
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        Salz
+                        </span>
+                      </label>
+                  </div>
+
+                  <h3>Zubereitung</h3>
+
+                  <ol class="list-group list-group-numbered">
+                      <li class="list-group-item">Kürbis waschen, halbieren und die Fasern mit den Kernen entfernen.</li> 
+                      <li class="list-group-item">Dann in Würfel schneiden.</li>  
+                      <li class="list-group-item">Kartoffeln und Zwiebel schälen und würfeln.</li>
+                      <li class="list-group-item">Knoblauch schälen.</li>
+                      <li class="list-group-item">Butterschmalz in einem Topf erhitzen und Zwiebeln und Knoblauch glasig anbraten.</li>
+                      <li class="list-group-item">Kürbiswürfel und Kartoffeln dazugeben, 2-3 Minuten andünsten und mit Gemüsebrühe ablöschen.</li>
+                      <li class="list-group-item">Suppe 30 Minuten köcheln lassen und gelegentlich umrühren.</li>
+                      <li class="list-group-item">Petersilie waschen, trocken schütteln und grob hacken.</li>
+                      <li class="list-group-item">Suppe pürieren, die Sahne zugeben und mit Pfeffer und Salz abschmecken.</li>
+                      <li class="list-group-item">Mit Petersilie garnieren.</li>                                        
+                    </ol>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+          <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Kontakt</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Impressum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Datenschutzrichtlinien</a></li>
+              </ul>
+              <p class="text-center text-body-secondary">© 2024 OEI</p>
+              <p class="footertexte">Ein Rezept vorschlagen: <a href="mailto:recipes@recipe-book.com">eine Email schicken.</a> </p>              
+            </footer>
+          </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>

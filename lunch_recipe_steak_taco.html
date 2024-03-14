@@ -3,66 +3,165 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles_recipie.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <title>Delicious Recipes</title>
     </head>
     <body>
-        <header>
-            <h1>Delicious Recipes</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="breakfast.html">Frühstück</a></li>
-                    <li><a href="lunch.html">Mittagessen</a></li>
-                    <li><a href="dinner.html">Abendessen</a></li>
-                </ul>
-            </nav>        
-        </header>
+            <div class="container">
+                <h1 class="webseitentitel">Delicious Recipes</h1>
+                <header class="d-flex justify-content-center py-3">
+                  <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="breakfast.html" class="nav-link">Frühstück</a></li>
+                    <li class="nav-item"><a href="lunch.html" class="nav-link">Mittagessen</a></li>
+                    <li class="nav-item"><a href="dinner.html" class="nav-link">Abendessen</a></li>
+                  </ul>
+                </header>
+              </div>
 
-        <article>
-            <h2>Steak Taco</h2>
-            <h3>Zutaten</h3>
-            <ul>
-                <li>1 Zwiebel</li>
-                <li>2 Zehe(n) Knoblauch</li>
-                <li>3 Paprika (rot)</li>
-                <li>1 Cayenne-Chili (rot)</li>
-                <li>1 Limette</li>
-                <li>1 TL Kreuzkümmelpulver</li>
-                <li>1 TL Paprikapulver</li>
-                <li>1 TL Chilipulver</li>
-                <li>4 EL Olivenöl</li>
-                <li>Salz</li>
-                <li>Pfeffer</li>
-                <li>3 Rumpsteaks</li>
-                <li>8 kleine Weizentortillas</li>
-                <li>15 g Koriander (frisch)</li>
-            </ul>
-            <h3>Zubereitung</h3>
-            <ol>
-                <li>Zwiebeln und Knoblauch schälen und fein würfeln.</li>
-                <li>Paprika und Chili waschen und abtrocknen.</li>
-                <li>Kerne und Stielansatz wegschneiden.</li>
-                <li>Paprika dann in ca. 1 cm große Stücke schneiden, Chili fein hacken.</li>
-                <li>Limette auspressen.</li>
-                <li>Für die Marinade in einer kleinen Schüssel Kreuzkümmel, Paprikapulver, Chilipulver, Knoblauch, Limettensaft und 2 EL Olivenöl vermischen.</li>
-                <li>Mit Salz und Pfeffer würzen.</li>
-                <li>Restliches Olivenöl in einer Pfanne bei mittlerer Temperatur erhitzen und Zwiebel, Paprika und Chili andünsten, bis sie weich sind.</li>
-                <li>Die Steaks auf dem Grill oder in einer Grillpfanne bei hoher Hitze grillen, bis sie die gewünschte Garstufe erreichen (für medium-rare ca. 3-4 Minuten pro Seite).</li>
-                <li>Das Fleisch aus der Hitze nehmen und etwa 5 Minuten ruhen lassen (damit sich die Säfte verteilen können).</li>
-                <li>Das Fleisch in ca. 1 cm dicke Streifen schneiden und in die Marinade geben.</li>
-                <li>Gut vermischen und das Fleisch für etwa 10 Minuten in der Marinade ruhen lassen.</li>
-                <li>Die Tortillas in einer trockenen Pfanne oder auf dem Grill erwärmen, bis sie weich und warm sind. Koriander waschen, trocken schütteln und die Blätter abzupfen.</li>
-                <li>Die Tortillas jeweils mit den gegrillten, marinierten Steakstreifen belegen, die Zwiebel-Paprika-Mischung darauf verteilen, mit den Korianderblättern garnieren und zusammenrollen.</li>
-            </ol>
-            <figure>
-                <img src="lunch_recipe_steak_taco.png" alt="Steak Taco" width="50%">
-                <figcaption>Leckerer hausgemachter Steak Taco.</figcaption>
-            </figure>
-        </article>
 
-        <footer>
-            <p>Ein Rezept vorschlagen: <a href="mailto:recipes@recipe-book.com">eine Email schicken.</a> </p>
-        </footer>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 ">Steak Taco</h1>
+            
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                      <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="lunch_recipe_steak_taco.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                      
+                        <figcaption>Steak Taco</figcaption>
+                    
+                    </div>
 
+
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+
+                  <h3>Zutaten</h3>
+
+                  <div class="list-group">
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked="">
+                      <span>
+                        1 Zwiebel
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                      <span>
+                        2 Zehe(n) Knochblauch
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                      <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                      <span>
+                        3 Paprika (rot)
+                      </span>
+                    </label>
+                    <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        1 Cayenne-Chili (rot)
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        1 Limette
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        1 TL Kreuzkümmelpulver
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        1 TL Paprikapulver
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        1 TL Chilipulver
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        4 EL Olivenöl
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        Salz
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        Pfeffer
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        3 Rumpsteak
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        8 kleine Weizentortillas
+                        </span>
+                      </label>
+                      <label class="list-group-item d-flex gap-2">
+                        <input class="form-check-input flex-shrink-0" type="checkbox" value="">
+                        <span>
+                        15 g Koriander
+                        </span>
+                      </label>
+                  </div>
+
+                  <h3>Zubereitung</h3>
+
+                  <ol class="list-group list-group-numbered">
+                      <li class="list-group-item">Zwiebeln und Knoblauch schälen und fein würfeln.</li> 
+                      <li class="list-group-item">Paprika und Chili waschen und abtrocknen.</li>  
+                      <li class="list-group-item">Kerne und Stielansatz wegschneiden.</li>
+                      <li class="list-group-item">Paprika dann in ca. 1 cm große Stücke schneiden, Chili fein hacken.</li>
+                      <li class="list-group-item">Limette auspressen.</li>
+                      <li class="list-group-item">Für die Marinade in einer kleinen Schüssel Kreuzkümmel, Paprikapulver, Chilipulver, Knoblauch, Limettensaft und 2 EL Olivenöl vermischen.</li>
+                      <li class="list-group-item">Mit Salz und Pfeffer würzen.</li>
+                      <li class="list-group-item">Restliches Olivenöl in einer Pfanne bei mittlerer Temperatur erhitzen und Zwiebel, Paprika und Chili andünsten, bis sie weich sind.</li>
+                      <li class="list-group-item">Die Steaks auf dem Grill oder in einer Grillpfanne bei hoher Hitze grillen, bis sie die gewünschte Garstufe erreichen (für medium-rare ca. 3-4 Minuten pro Seite).</li>
+                      <li class="list-group-item">Das Fleisch aus der Hitze nehmen und etwa 5 Minuten ruhen lassen (damit sich die Säfte verteilen können).</li>                                        
+                      <li class="list-group-item">Das Fleisch in ca. 1 cm dicke Streifen schneiden und in die Marinade geben.</li>
+                      <li class="list-group-item">Gut vermischen und das Fleisch für etwa 10 Minuten in der Marinade ruhen lassen.</li>
+                      <li class="list-group-item">Die Tortillas in einer trockenen Pfanne oder auf dem Grill erwärmen, bis sie weich und warm sind. Koriander waschen, trocken schütteln und die Blätter abzupfen.</li>
+                      <li class="list-group-item">Die Tortillas jeweils mit den gegrillten, marinierten Steakstreifen belegen, die Zwiebel-Paprika-Mischung darauf verteilen, mit den Korianderblättern garnieren und zusammenrollen.</li>                                        
+                    </ol>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+          <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Kontakt</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Impressum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Datenschutzrichtlinien</a></li>
+              </ul>
+              <p class="text-center text-body-secondary">© 2024 OEI</p>
+              <p class="footertexte">Ein Rezept vorschlagen: <a href="mailto:recipes@recipe-book.com">eine Email schicken.</a> </p>              
+            </footer>
+          </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
