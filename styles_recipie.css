@@ -1,3 +1,16 @@
+
+.webseitentitel {
+    padding-top: 20px;
+    text-align: center;
+    width: auto;
+}
+
+.footertexte {
+    text-align: center;
+    width: auto;
+}
+
+/*
 * {
     background-color: #94b0f0;
     font-family: 'Lucida Sans', sans-serif;
@@ -93,3 +106,4 @@ footer {
 footer a:hover {
     text-shadow: 0px 0px 4px #0b1e6a;
 }
+*/
